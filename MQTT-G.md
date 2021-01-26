@@ -1,4 +1,4 @@
-# MQTT-Q: A Publish-Subscribe Protocol with Geolocation
+# MQTT-G: A Publish-Subscribe Protocol with Geolocation
 
 ## Abstract
 - Message Queue Transport Telemetry (MQTT) is an open source Publish-Subscribe standard for M2M communication.
@@ -65,7 +65,7 @@ struct mosquitto_location {
     uint8_t version;
     double lat;
     double lon;
-    flot elev;
+    float elev;
 };
 ```
 
